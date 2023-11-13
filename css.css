@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: #0f0f0f;
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    margin-top: 2%;
+    margin-bottom:4%;
+    margin-left:10% ;
+    margin-right: 10%;
+    background-color: rgb(128, 127, 127);
+    border-radius: 40px;
+
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h1,
+h2 {
+    font-weight: 800;
+    color: #175c69;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    background-color: #000;
+    display: block;
+}
+
+.container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+section.modulo p {
+    margin-bottom: 30px;
+    text-align: justify;
+    font: size 1.7em;
+}
+
+section.modulo h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    letter-spacing: .5em;
+    text-align: center;
+}
+
+section.modulo.content {
+    padding: 40px 0;
+}
+
+section.modulo.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p {
+    font-family: cursive;
+    color: rgb(20, 63, 51);
+}
+
+
+section.modulo.parallax h1 {
+    text-shadow: 1px 16px 7px #000;
+    text-align: center;
+    z-index: 100;
+}
+
+section.modulo.parallax::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    /* background: #0f0f0fcb; */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0)0, rgba(0, 0, 0, 0)50%, #0f0f0f 100%);
+}
+
+
+section.modulo.parallax-1 {
+    background-image: url("https://img.20mn.fr/RiUbNtkjRgOuP7dlvtyY4ik/768x492_stock-ps5-o-trouver-console-moment");
+}
+
+section.modulo.parallax-2 {
+    background-image: url("https://s2-oglobo.glbimg.com/DERXXmRHZG5cohfkFEZfjrdmQyo=/0x0:1280x720/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/W/m/8kqpuNTNCVfTBIx94AIQ/sub-xboxseriess-numero.png");
+}
+
+section.modulo.parallax-3 {
+    background-image: url("png-clipart-nintendo-switch-wii-playstation-video-game-consoles-playstation-electronics-nintendo-removebg-preview.png");
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 5%;
+}
